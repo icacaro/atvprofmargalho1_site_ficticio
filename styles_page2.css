@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Roboto+Mono&display=swap');
+
+:root {
+  --font-primary: 'Inconsolata', serif;
+  --font-secundary: 'Roboto Mono', serif;
+
+}
+
+html, body {
+  margin: 0;
+  pad: 0;
+}
+
+h1, h2 {
+  font-family: var(--font-primary);
+}
+
+p, a, li {
+  font-family: var(--font-secundary);
+}
+
+footer p {
+  padding: 1%;
+  color: rgba(0, 0, 0, 0.2)
+}
